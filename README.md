@@ -5,5 +5,5 @@ It turns CSV into JSON. By operating on an incoming stream of data, rather than 
 ## Usage
 
 ```
-cat records.csv | csv2json.py > records.json
+cat records.csv | jsonify.py > records.json
 ```
