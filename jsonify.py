@@ -18,4 +18,4 @@ for obj in csv.DictReader(sys.stdin, skipinitialspace=True):
     result.append(obj)
 
 # Conclude our JSON output.
-print json.dumps(result, sort_keys=True, indent=2)
+print json.dumps(result, indent=2)
